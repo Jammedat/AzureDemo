@@ -3,14 +3,16 @@
 2. Add an inbound rule to allow HTTP traffic -> Network Security Group ->  Crete port rule -> service -> HTTP
 3. Login to the VM from AzureCLI or GitBash
 4. Switch to root user:
+   
    ```
    sudo su -
    ```
-5. Update OS system files:
-   ```
+6. Update OS system files:
+   
+   ``
    sudo apt update -y
    ```
-6. Install git if not installed and clone the GitHub repo where your app is
+7. Install git if not installed and clone the GitHub repo where your app is
 
 ## Install the apache web sever
 
