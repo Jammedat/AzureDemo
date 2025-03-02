@@ -9,7 +9,7 @@
    ```
 6. Update OS system files:
    
-   ``
+   ```
    sudo apt update -y
    ```
 7. Install git if not installed and clone the GitHub repo where your app is
